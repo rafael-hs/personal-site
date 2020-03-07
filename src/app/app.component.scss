@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:host {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 0.4fr;
+    grid-template-areas: 'content content navbar';
+}
+
+.navbar-area{
+    grid-area: navbar;
+}
+.content-area{
+    grid-area: content;
+}
+
+// .grid-container {
+//     height: 100%;
+//     width: 100%;
+//     display: grid;
+//     grid-template-areas: 
+//     'content content navbar' 
+//     'content content navbar' 
+//     'content content navbar';
+// }
